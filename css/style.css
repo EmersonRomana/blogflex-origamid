@@ -34,7 +34,7 @@ img {
   flex-wrap: wrap;
   max-width: 960px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px 20px;
 }
 
 .superinfo a {
@@ -84,4 +84,46 @@ a {
 
 .menu ul li a:hover {
   transform: scale(1.1); /* 1.2 = 120% do tamanho original */
+}
+
+/* Introdução */
+.introducao {
+  font-size: 3rem;
+  line-height: 1;
+  padding: 60px 20px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Sobre */
+.sobre {
+  border-top: 2px solid #2c70ff;
+  border-bottom: 2px solid #2c70ff;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sobre-info {
+  flex: 2 1 300px;
+  margin-inline: 0 20px;
+}
+
+.sobre-info h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.sobre-info p {
+  font-size: 1.25rem;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+  color: #7c7c7c;
+}
+
+.sobre-img {
+  flex: 1 1 160px;
+  margin: 0 10px;
 }
