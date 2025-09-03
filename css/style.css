@@ -21,3 +21,22 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/* Super-info */
+.superinfo-bg {
+  background-color: #122ab2;
+  color: white;
+}
+
+.superinfo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.superinfo a {
+  color: white;
+}
