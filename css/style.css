@@ -40,3 +40,8 @@ img {
 .superinfo a {
   color: white;
 }
+
+.superinfo p,
+a {
+  font-size: 0.75rem;
+}
